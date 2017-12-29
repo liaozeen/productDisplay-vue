@@ -4,6 +4,7 @@
 本项目是对在用原生JS编写的项目进行重构，基于Vue编写。
 
 原生JS版的项目：[点击这里](https://github.com/liaozeen/productDisplay)
+本项目：[点击这里](https://liaozeen.github.io/productDisplay-vue/)
 
 比起原生JS，使用Vue有以下优点：
 - 减少DOM的操作。用原生JS实现动画，需要获取DOM，对元素的class属性进行操作。
