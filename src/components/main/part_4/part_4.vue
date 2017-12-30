@@ -98,13 +98,13 @@ export default {
         bottom:0
         color: #93999f
     .phone_item_1
-      background:url('phone-1.png')
+      background:url('./phone-1.png')
     .phone_item_2
-      background:url('phone-2.png')
+      background:url('./phone-2.png')
     .phone_item_3
-      background:url('phone-3.png')
+      background:url('./phone-3.png')
     .phone_item_4
-      background:url('phone-4.png')
+      background:url('./phone-4.png')
     .phone_item_1,.phone_item_2,.phone_item_3,.phone_item_4
       background-repeat:no-repeat
       background-position: center top

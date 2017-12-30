@@ -133,7 +133,7 @@ export default {
       height: 618px
       right: 100px
       top:160px
-      background: url("bg-screen-3.png") no-repeat
+      background: url("./bg-screen-3.png") no-repeat
       background-size: 500px 618px
 .slide-up-enter-active, .slide-down-enter-active,.scale-enter-active
   transition: all 1s

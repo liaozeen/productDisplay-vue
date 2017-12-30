@@ -6,6 +6,8 @@
       </transition>
       <transition name="slide-up">
         <span class="info"  v-if="show">{{data.info[0]}}</span>
+      </transition>
+      <transition name="slide-up">
         <span class="info"  v-if="show">{{data.info[1]}}</span>
       </transition>
     </div>
@@ -78,7 +80,7 @@ export default {
   .phone
     width: 800px
     height: 873px
-    background: url("bg-screen-2.png") no-repeat
+    background: url("./bg-screen-2.png") no-repeat
   .points
     .point
       font-size: 24px
@@ -103,7 +105,7 @@ export default {
       top: 180px
       left: -120px
       padding-right: 112px
-      background: url("icon-point-right.png") no-repeat center right
+      background: url("./icon-point-right.png") no-repeat center right
       &.point:before,&.point:after
         right: 0
     .point_2
@@ -117,7 +119,7 @@ export default {
       top: 300px;
       left: 660px;
       padding-left: 112px
-      background: url("icon-point-left.png") no-repeat center left
+      background: url("./icon-point-left.png") no-repeat center left
       &.point:before,&.point:after
         left: 0
     .slide-up-enter-active, .slide-down-enter-active

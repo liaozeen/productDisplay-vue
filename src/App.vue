@@ -32,7 +32,8 @@ export default {
       let prodPath = 'https://liaozeen.github.io/productDisplay-vue' + '/api/data.json'
       this.$http.get(prodPath).then(response => {
         response = response.body
-        this.seller = Object.assign({}, this.seller, response.seller)
+        this.data = response
+        this.detail = response.detail
       })
     } else {
       this.$http.get('/api/phone').then((response) => {

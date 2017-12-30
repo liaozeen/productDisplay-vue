@@ -19,7 +19,7 @@ export default {
     position: relative
     width: 100%
     height: 300px
-    background: url('bg-screen-buy.png') center
+    background: url('./bg-screen-buy.png') center
     .part_6_buy
       position: absolute
       width: 240px

@@ -3,8 +3,8 @@
    <div class="bg_one"></div>
    <transition name="slide-up">
     <div class="content" v-if="show">
-        <span class="title">{{data.title}}</span>
-        <span class="info">{{data.info}}</span>
+        <span class="title">{{data!=undefined?data.title:undefined}}</span>
+        <span class="info">{{data!=undefined?data.info:undefined}}</span>
     </div>
    </transition>
    <div class="pictrue">
@@ -31,15 +31,7 @@ export default {
       scrollHeight: 0
     }
   },
-  methods: {
-    /*
-    scroll () {
-      this.scrollHeight = document.documentElement.scrollTop
-    }
-    */
-  },
   mounted () {
-   // window.addEventListener('scroll', this.scroll)
     this.show = true
   }
 }
@@ -51,7 +43,7 @@ export default {
     position: absolute
     width:  100%
     height: 100%
-    background-image: url("bg-screen-1.png")
+    background-image: url("./bg-screen-1.png")
     background-size: 100% 100%
     z-index: -999
   .content
@@ -80,11 +72,11 @@ export default {
       height: 100%
       background-repeat: no-repeat
     .phone
-      background-image: url("screen-1-phone.png")
+      background-image: url("./screen-1-phone.png")
       background-size: 1000px 222px
       z-index: 2
     .shadow
-      background-image: url("screen-1-shadow.png")
+      background-image: url("./screen-1-shadow.png")
       background-size: 1000px 333px
       z-index: 1
   .slide-up-enter-active, .slide-down-enter-active

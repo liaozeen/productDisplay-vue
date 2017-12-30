@@ -58,7 +58,7 @@ export default {
       bottom:-100px
       width: 100%
       height: 370px
-      background: url('bg-screen-5.png') no-repeat
+      background: url('./bg-screen-5.png') no-repeat
       background-size:1737px 370px
       background-position: center
   .slide-up-enter-active, .slide-down-enter-active,.scale-enter-active
